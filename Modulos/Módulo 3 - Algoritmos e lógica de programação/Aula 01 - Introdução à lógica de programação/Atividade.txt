@@ -1,0 +1,26 @@
+/*Exercício:
+Descreva um algoritmo para representar sua rotina matinal, a partir do momento em que você acorda. Use ao menos duas vezes a expressão Se ... Então ....
+
+Caso queira ir um pouco além do que foi apresentado no vídeo, tente incluir as instruções Se ... Então ... Senão ... e Enquanto ....
+
+Não há resposta certa ou errada. 😉*/
+
+Levantar da cama
+Ir até Guarda Roupa
+Trocar de Roupa
+Ir até Porta do quarto
+Se porta do quarto estiver fechada
+  então Abra Porta
+se não
+  sair do quarto
+Ir para porta do banheiro
+se porta do banheiro estiver fechada
+	abrir a porta do banheiro
+se não
+	entrar no banheiro
+Pegar ir até a pia do banheiro
+Pegar escova de dente
+Se escova de dente estiver sem pasta de dente
+	colocar pasta de dente	
+Escovar os dentes
+Voltar para o quarto

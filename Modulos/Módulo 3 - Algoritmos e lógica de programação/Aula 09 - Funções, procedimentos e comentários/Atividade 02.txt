@@ -1,0 +1,37 @@
+/*Lembra dos exercícios que propusemos na Aula 05 - Variáveis? Com base neles, faça o seguinte:
+Crie uma função para cada algoritmo proposto lá, exceto o número 6;
+Todas as funções devem retornar o valor final;
+Procure dar nomes que façam sentido às funções. Ex.: a função para o item 4 poderia se chamar mediaAritmetica ou calcularMediaAritmetica;
+Procure utilizar comentários para documentar cada método;
+Na função da média aritmética, evite colocar todos os itens como argumentos do método, pois isso limitaria sua utilização a um número fixo de elementos. Tente implementar uma lógica para receber um array e calcular a média em cima dele, tornando a função mais reaproveitável em diferentes situações.*/
+
+//verifica se possui o mesmo nome
+function mesmoNome (nome1, nome2){ 
+        return nomeIgual = (nome1 == nome2)
+    }
+
+//verifica se é maior de idade
+function maiorDeIdade (idade){
+	return maiorIdade = (idade >= 18)
+}
+
+//retorna um valor com 10% de juros
+function valorComJuros (valor){
+	return acrescimoJuros = (valor * 1.1)
+}
+
+//realiza a Média Aritmética de valores
+function mediaArtimetica (valores){
+    soma = 0
+    media = 0
+    for(index = 0; index < valores.length; index++){
+    soma += valores[index]
+    return media = soma / valores.length
+    }
+}
+
+//Mostra a margem bruta em %
+function margemBrutaPorcentagem (receitaLiquidaVendas,custoProdutosVendidos){
+       lucroBruto = receitaLiquidaVendas - custoProdutosVendidos
+       return (lucroBruto / receitaLiquidaVendas) * 100
+}

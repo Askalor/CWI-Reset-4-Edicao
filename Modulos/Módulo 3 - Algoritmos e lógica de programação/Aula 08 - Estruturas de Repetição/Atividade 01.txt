@@ -1,0 +1,9 @@
+//Crie um array de 5 posições com quaisquer valores. Utilize qualquer estrutura de repetição apresentada no vídeo para exibir todos os valores do array
+
+valores = [10,30,40,68,94]
+
+for(index = 0; index < valores.length; index++) {
+
+console.log(valores[index])
+
+}

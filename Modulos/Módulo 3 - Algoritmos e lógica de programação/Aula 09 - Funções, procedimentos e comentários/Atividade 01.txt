@@ -1,0 +1,6 @@
+//Crie uma função chamada imprimir que recebe um argumento e simplesmente imprime ele na tela;
+
+//imprime algo na tela
+function imprimir(texto) {
+	console.log(texto)
+}

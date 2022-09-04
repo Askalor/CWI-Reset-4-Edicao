@@ -1,0 +1,7 @@
+//Crie uma variável valorComJuros que calcula o valor de um boleto acrescido de 10% de juros por atraso;
+
+valor = 50
+
+valorComJuros = valor * (1+(10/100))
+
+console.log(valorComJuros)

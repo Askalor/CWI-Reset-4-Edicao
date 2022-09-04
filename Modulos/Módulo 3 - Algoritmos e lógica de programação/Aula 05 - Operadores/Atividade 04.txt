@@ -1,0 +1,11 @@
+//Faça a representação da fórmula de média aritmética, considerando um conjunto de elementos com 5 elementos nomeados como item1, item2, item3, item4 e item5
+
+item1 = 20
+item2 = 40
+item3 = 39
+item4 = 84
+item5 = 58
+
+mediaAritmetica = (item1 + item2 + item3 + item4 + item5) / 5
+
+console.log(mediaAritmetica)

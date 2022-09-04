@@ -1,0 +1,8 @@
+//Crie uma variável mesmoNome que verifica se nomeDoFulano é igual a nomeDoBeltrano
+
+nomeDoBeltrano = "Beltrano"
+nomeDoFulano = "Fulano"
+
+mesmoNome = (nomeDoFulano == nomeDoBeltrano)
+
+console.log(mesmoNome)

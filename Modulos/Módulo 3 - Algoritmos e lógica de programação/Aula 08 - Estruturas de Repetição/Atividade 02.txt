@@ -1,0 +1,13 @@
+//Crie um algoritmo capaz de calcular a média aritmética de um array com qualquer quantidade de elementos numéricos. Para fins de exemplo, o resultado do algoritmo com um array de valores 1, 2, 3, 5, 8, 13, 21, 23, 34, 55 deve ser 16.5. Procure usar uma estrutura de repetição diferente da que você usou para fazer o exercício anterior;
+
+valores = [1, 2, 3, 5, 8, 13, 21, 23, 34, 55]
+index = 0
+somaValores = 0
+
+do{
+somaValores += valores[index]
+}while (index < valores.length)
+index = 0
+
+mediaAritmetica = somaValores / valores.length
+console.log(mediaAritmetica)
