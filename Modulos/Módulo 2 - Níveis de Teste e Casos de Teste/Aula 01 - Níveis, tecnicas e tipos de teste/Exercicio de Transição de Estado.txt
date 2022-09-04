@@ -1,0 +1,5 @@
+1) Um pedido de reembolso de despesas inicia como "Novo". Quando um gestor abre o pedido este passa para "Em Analise" podendo ser "Rejeitado" ou "Aprovado". Um funcionario do Departamento Pessoal realiza
+realiza o pagamento dos reembolsos todo 5º dia útil do mes, e conforme contretiza vai mudando o status para "Pago"
+
+Testes Minimos: 4
+Testes Máximos: 5?

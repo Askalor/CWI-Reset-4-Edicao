@@ -1,0 +1,4 @@
+Por que preciso ter alguém para testar? Por que não o dev?
+->Ele deve sim testar. Defeitos devem ser um esforço coletivo. 
+  ->Existem defeitos que só um Dev vai encontrar
+  ->Existem outros difíceis de encontrar

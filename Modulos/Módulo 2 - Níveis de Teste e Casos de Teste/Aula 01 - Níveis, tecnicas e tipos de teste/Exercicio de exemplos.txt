@@ -1,0 +1,38 @@
+1) Em uma fazenda de café, uma máquina seleciona os graõs pelo tamanho, descartando os menores de 3mm e classificando os demais como até 5mm (R$50,00), 7mm(R$80,00) e 9mm(R$120,00). Grãos maiores também são descartados
+
+0   |1            2*|3 4*    5|6*      7|8     9|10				
+										
+Não|   Descartado   | R$50,00 | R$80,00 | R$120,00|Descartado
+
+
+Baixo Risco:10 Testes (Somar os numeros antes e depois do |)
+-Caso 1:0 (deve ser testado pois não existe grão de 0mm)
+-Caso 2:1
+-Caso 3:2
+-Caso 4:3
+-Caso 5:5
+-Caso 6:6
+-Caso 7:7
+-Caso 8:8
+-Caso 9:0
+-Caso 10:10
+
+Alto Risco: 11 Testes (Fazer com todos os casos, menos os de sobreposição. Mas caso feito com eles, são 15 testes) 
+
+-Caso 1:0 (deve ser testado pois não existe grão de 0mm)
+-Caso 2:1
+-Caso 3:2
+-Caso 4:2 (Inogorar pois já foi testado)
+-Caso 5:3
+-Caso 6:4
+-Caso 7:4 (Inogorar pois já foi testado)
+-Caso 8:5
+-Caso 9:6
+-Caso 10:6 (Inogorar pois já foi testado)
+-Caso 11:7
+-Caso 12:8
+-Caso 13:8 (Inogorar pois já foi testado)
+-Caso 14:9
+-Caso 15:10
+
+OBS: O * significa que o numero faz parte de mais de um grupo de testes. Sobrepondo valores. Valores já testados em outro

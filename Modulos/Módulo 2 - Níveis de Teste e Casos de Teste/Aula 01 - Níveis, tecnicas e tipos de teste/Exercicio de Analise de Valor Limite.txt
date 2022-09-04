@@ -1,0 +1,105 @@
+1) Em uma fazenda de café, uma máquina seleciona os graõs pelo tamanho, descartando os menores de 3mm e classificando os demais como até 5mm (R$50,00), 7mm(R$80,00) e 9mm(R$120,00). Grãos maiores também são descartados
+
+0   |1            2*|3 4*    5|6*      7|8     9|10				
+										
+Não |  Descartado   | R$50,00 | R$80,00 | R$120,00|Descartado
+
+
+Baixo Risco:10 Testes (Somar os numeros antes e depois do |)
+-Caso 1:0 (deve ser testado pois não existe grão de 0mm)
+-Caso 2:1
+-Caso 3:2
+-Caso 4:3
+-Caso 5:5
+-Caso 6:6
+-Caso 7:7
+-Caso 8:8
+-Caso 9:0
+-Caso 10:10
+
+Alto Risco: 11 Testes (Fazer com todos os casos, menos os de sobreposição. Mas caso feito com eles, são 15 testes) 
+
+-Caso 1:0 (deve ser testado pois não existe grão de 0mm)
+-Caso 2:1
+-Caso 3:2
+-Caso 4:2 (Inogorar pois já foi testado)
+-Caso 5:3
+-Caso 6:4
+-Caso 7:4 (Inogorar pois já foi testado)
+-Caso 8:5
+-Caso 9:6
+-Caso 10:6 (Inogorar pois já foi testado)
+-Caso 11:7
+-Caso 12:8
+-Caso 13:8 (Inogorar pois já foi testado)
+-Caso 14:9
+-Caso 15:10
+
+OBS: O * significa que o numero faz parte de mais de um grupo de testes. Sobrepondo valores. Valores já testados em outro
+
+
+
+
+2)Nos correios, enviar uma carta nacional até 25g custa R$0,50. A cada 25g adicionais são cobrados R$ 0,30. O peso máximo permitido é 200g
+
+
+  0|1 24* 25|26  49   50|51  74   75|76   99   100|101    124   125|126   149  150|151   174  175|176   199   200|201
+
+Não| R$0,50 |  R$0,80   |   R$1,10  |    R$1,40   |    R$ 1,70     |    R$2,00    |    R$2,30    |    R$2,60     | Não permitido
+
+Baixo Risco: 18 Testes
+Alto Risco: 27 testes
+
+-Caso 1:  0
+-Caso 2:  1
+-Caso 3:  24
+-Caso 4:  24 (Repetido)
+-Caso 5:  25
+-Caso 6:  26
+-Caso 7:  49
+-Caso 8:  50
+-Caso 9:  51
+-Caso 10: 74
+-Caso 11: 75
+-Caso 12: 76
+-Caso 13: 99
+-Caso 14: 100
+-Caso 15: 101
+-Caso 16: 124
+-Caso 17: 125
+-Caso 18: 126
+-Caso 19: 149
+-Caso 20: 150
+-Caso 21: 151
+-Caso 22: 174
+-Caso 23: 175
+-Caso 24: 176
+-Caso 25: 199
+-Caso 26: 200
+-Caso 27: 201
+
+
+3) Uma siderurgica produz blindagens para veículos militares. As chapas precisam ser cortadas com espessuras de 10 a 15mm (Categoria I), 20 a 25mm (Categoria II) e 30 a 35mm (Categoria III).
+
+
+   0|1   8   9|10      14    15|16   18  19|20      24     25|26  28  29|30    34      35|36
+Não |  Nada?  |  Categoria I   |   Nada?   |  Categoria II   |  Nada?   |  Categoria 3   | Nada?
+
+Baixo Risco: 14 Testes
+Alto Risco: 21 Testes
+
+
+4) Nas comemorações de Ano Novo, na linha verde do Metrô de São Paulo, as estações Brigadeiro até Consolação permanecerão fechadas. Consulte o mapa da linha na internet se não conhece a sequencia de estações. (14 no total, 3 fechadas)
+
+Teste Minimo = 1
+Teste Máximo = 11
+
+5) Um computador será utilizado para ativar o show de fogos de artificio. As teclas alfabéticas de K a T controlam os grupos a serem disparados.
+
+Teste Minimo = 1
+Teste Máximo = 11
+
+6) Um fabircante de impressoras vai testar em seu laboratório a conectividade de seu novo modelo. Para isso, irá atualizar um computador que possui 3 portas USB, 2 portas Firewire, Wifi e Bluetooth.
+
+Teste Minimo = 4
+Teste Máximo = 7 

@@ -1,0 +1,63 @@
+Elaborar cenários simulando testes na funcionalidade de login do Google
+
+Considerações:
+Pense em fluxos principais e fluxos alternativos;
+Exercite as técnicas de testes apresentada nos vídeos;
+Descreva pelo menos um cenário na estrutura passo a passo, e ao menos um cenário no formato Gherkin.
+
+Modelo de Caso ISTQB
+
+ID: CT-1
+Título: Fazendo Login no Site
+Pré Condições: Possuir um email valido e uma senha
+Valores de entrada: email@gmail.com senha123
+Resultado: Login bem sucedido
+
+Modelo de Caso Gherkin
+
+Cenário:Login no Google
+Dado que acessei a aplicação
+E fui direcionado para o login
+Quando preencho meus dados de acesso corretamente
+Então sou redirecionado para a aplicação
+
+Passo a Passo
+
+(Titulo) Acessar o sistema com usuario Valido 
+
+Ação					            |         Resultado
+
+Entrar na pagina de Login 			    |   Devo ser direcionado para tela de Login
+Entrar no campo de email e digitar email valido     |   Não deve ocorrer erro
+Clico no botão Próximo				    |   Devo ser direcionado para tela de senha
+Entrar no campo de senha e digitar senha valida	    |   Não deve ocorrer erro
+Clicar no botão "próximo"                           |   Devo ser direcionado para aplicação
+
+
+BDD
+
+Contexto: Dado que fazer login no Google
+
+Cenario 1 - Autenticação Valida
+Quando eu digitar login "lucas@gmail.com"
+e a senha "senha123"
+Então login sucedido
+
+Cenario 2 - Autenticação Invalida
+Quando eu digitar login "lucas@gmail.com"
+e a senha "senha1223"
+Então login não sucedido
+
+Cenario 3 - Esquecendo o email
+Quando eu "clicar em esqueceu seu e-mail?"
+Então vou para pagina de recuperação
+
+Cenario 4 - Não possuo conta
+Quando eu clicar em "Criar Conta"
+Então vou para pagina de criar conta
+
+Cenario 5 - Campo em branco
+Quando eu tento login em branco
+Então pede para digitar email 
+
+

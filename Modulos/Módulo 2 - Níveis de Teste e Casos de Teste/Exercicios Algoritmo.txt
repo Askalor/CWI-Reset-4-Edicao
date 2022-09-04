@@ -1,0 +1,28 @@
+Se olhos estiverem fechados
+ 	então abrir olhos
+fim
+
+Levantar da cama
+Arrumar o cobertor na cama
+ir até a porta 
+Se porta estiver aberta
+	sair do quarto
+se não
+	abrir a porta
+fim
+Ir até o banheiro
+Pegar a escova de dente
+pegar a pasta dental
+passar a pasta dental na escova de dente
+colocar a escova na boca
+escovar os dentes
+se torneira estiver fechada
+	abrir a torneira
+	lavar a escova com a agua da torneira
+	fechar a torneira
+se não
+	lavar a escova com a agua da torneira
+	fechar a torneira
+fim
+
+

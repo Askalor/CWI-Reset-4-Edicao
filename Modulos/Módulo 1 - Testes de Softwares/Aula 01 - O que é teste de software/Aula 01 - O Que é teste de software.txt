@@ -1,0 +1,11 @@
+O que é Teste de Software?
+R: Não existe definição especifica, cada pessoa pode interpretar de uma maneira diferente. Depende do contexto
+
+Uma das 15 definições por Michael Bolton
+->É você avaliar um produto através do aprendizado que você obtem sobre ele a partir da exploração, observação, experimentação e da inferencia.
+->Testes é uma atividade onde conhecendo ou não conhecendo o software, você começa a explora-lo/experimenta-lo. 
+->Testar inputs no software e ver como ele se comporta, fazer anotações e entregar para os devs.
+
+Possíveis maneiras de se fazer Testes de Software:
+->Conhecer, aprender e explorar o software. Anotar como o software se comporta em seus processos, tentar entender o software como ele deve funcionar, não só quando existem defeitos.
+->Testar não é ir la e diretamente executar o software. É possível fazer teste estaticos. Olhar e pensar se nossa origem está escrita de forma correta. Se for codificado de forma correta (Isso dentro das RN -Regra de Negócios)

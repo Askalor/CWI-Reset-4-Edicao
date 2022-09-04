@@ -1,0 +1,5 @@
+Conceitos Basicos a serem estudados:
+
+-Kernel
+-Threads
+-Tipos de S.O (Em Lote, Tempo Compartilhado, Distribuído, Rede e Tempo Real)

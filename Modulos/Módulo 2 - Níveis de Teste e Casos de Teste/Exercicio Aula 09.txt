@@ -1,0 +1,56 @@
+//Verifica se possuí o mesmo nome
+function mesmoNome(fulano, beltrano){
+if (fulano == beltrano)
+    return true
+
+else {
+
+    return false 
+    
+    }
+
+}
+
+//Verifica se é maior de idade
+function maiorDeIdade(idade){
+
+if(idade >= 18){
+return true
+}
+else {
+return false
+}
+
+}
+
+//calcula acréscimo de 10% de juros
+function acrescimoJuros(valor){
+
+return valor *= 1.10 
+
+}
+
+//calcula media aritmetica 
+function mediaAritmetica(nota){
+
+    soma = 0
+for (index = 0; index < nota.length; index++){
+soma += nota[index] 
+}
+     media = soma / nota.length
+    console.log(media)
+}
+
+//mostra a % de margem bruta
+function porcentagemMargemBruta(receitaLiquida, custoProduto)
+    {
+
+    lucroBruto = 0
+    margemBruta = 0
+        
+    lucroBruto = receitaLiquida - custoProduto
+    margemBruta = (lucroBruto / receitaLiquida) * 100
+    
+    return margemBruta + "%"
+
+    }

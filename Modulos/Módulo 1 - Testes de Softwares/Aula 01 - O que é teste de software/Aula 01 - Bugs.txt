@@ -1,0 +1,3 @@
+Bugs são falhas que podem causar problemas (ou catastrofes) 
+Bug do milenio -> As datas só armazenavam até 6 digitos. Então quando os sistemas foram entrar no 00, eles pensavam se tratar de 1900
+Novo Bug do milenio -> As forma atual de armazenamento de datas só é possível armazenar datas até 19 de Janeiro 2038. Por amazenarem em 32 bits.
